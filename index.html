@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="mac.jpg" type="image/png" sizes="16x16" />
+    <title>Social media website using html,css,js - Octapia</title>
+    <!-- Styles  -->
+    <script src="https://kit.fontawesome.com/d95d49dbd3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- Styles End  -->
+  </head>
+  <body>
+    <!-- Header Section -->
+
+    <header class="header" id="header">
+      <div class="row">
+        <aside class="col left">
+          <a href="./" class="logo">
+            <img src="logo.jpg" alt="Logo" class="img" />
+            CollegeEazy
+          </a>
+        </aside>
+        <aside class="col center">
+          <nav class="nav">
+            <a href="./#" class="link">
+              <i class="icon fas fa-home"></i>
+            </a>
+
+            <a href="./#" class="link">
+              <i class="icon fas fa-bell"></i>
+              <span class="counter">10</span>
+            </a>
+            <a href="./#" class="link">
+              <i class="fas fa-comments fa-lg (33% infacrease) icon"></i>
+              <span class="counter">13</span>
+            </a>
+            <a href="./#" class="link">
+              <i class="icon fas fa-video"></i>
+              <span class="counter">3</span>
+            </a>
+          </nav>
+        </aside>
+        <aside class="col right">
+          <form class="searchForm">
+            <label for="searchBox">
+              <i class="fas fa-search"></i>
+            </label>
+            <input type="search" placeholder="Search here..." id="searchBox" />
+          </form>
+          <div class="profile">
+            <img src="mac.jpg" alt="profile-pic" class="img" />
+            <i
+              class="fas fa-cog icon"
+              title="Profile Settings"
+                id="settingsMenuIcon"
+            ></i>
+          </div>
+        </aside>
+        <!-- /.col.right -->
+
+        <nav class="navSetting">
+          <a href="./#" class="block">
+            <img
+              src="mac.jpg"
+              alt="profile-pic"
+              class="icon"
+            />
+            <div class="right">
+              <aside>
+                <h4 class="title">Sakil Jomadder</h4>
+                <span class="help">see your profile</span>
+              </aside>
+            </div>
+          </a>
+
+          <!-- /.block  user -->
+
+          <a href="./#" class="block">
+            <i class="fas fa-star icon"></i>
+            <div class="right">
+              <aside>
+                <h4 class="title">give feedback</h4>
+                <span class="help">help us to improve our app</span>
+              </aside>
+            </div>
+          </a>
+          <!-- /.block  feedback-->
+
+          <div class="options">
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-cog icon"></i>
+                <h4 class="title">Settings & privacy</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <!-- /.option  -->
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-question icon"></i>
+                <h4 class="title">help & support</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <!-- /.option  -->
+
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-tv icon"></i>
+                <h4 class="title">display & accessibility</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <!-- /.option  -->
+
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-moon icon"></i>
+                <h4 class="title">dark mode</h4>
+              </div>
+              <div class="right">
+                <aside class="themeBtn">
+                  <span class="circle dark"></span>
+                </aside>
+              </div>
+            </a>
+            <!-- /.option  -->
+
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-sign-out-alt icon"></i>
+                <h4 class="title">logout</h4>
+              </div>
+            </a>
+            <!-- /.option  -->
+          </div>
+          <!-- /.options -->
+          <nav class="footerLinks">
+            <a href="./#" class="link">about</a>
+            <a href="./#" class="link">privacy</a>
+            <a href="./#" class="link">terms</a>
+            <a href="./#" class="link">cookies</a>
+            <a href="./#" class="link">advertisement</a>
+            <a href="./#" class="link">more</a>
+            <span>copyright &copy; 2022. Debuggers</span>
+          </nav>
+        </nav>
+        <!-- /.navSetting -->
+      </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- IconNav Section -->
+    <section class="iconNav" id="iconNav">
+      <nav class="navContainer left">
+        <a href="./#" class="link"><i class="icon fas fa-user"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-home"></i> </a>
+        <a href="./#" class="link"><i class="fab fa-deezer"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-user-friends"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-pager"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-gamepad"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-video"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-heart"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-calendar-alt"></i> </a>
+        <a href="./#" class="link"
+          ><i class="icon fab fa-facebook-messenger"></i
+        ></a>
+      </nav>
+    </section>
+    <!-- IconNav Section End -->
+
+    <!-- Left Sidebar Section -->
+    <section class="leftSidebar" id="leftSidebar">
+      <div class="row">
+        <a href="./#profile" class="profile">
+          <img src="mac.jpg" alt="member-1" class="img" />
+          <span class="name">Sakil Jomadder</span>
+        </a>
+
+        <nav class="navLinks">
+          <a href="./#videos" class="link">
+            <i class="fab fa-deezer icon"></i>
+            <span class="name">Time Table</span>
+          </a>
+
+          <a href="./#videos" class="link">
+            <i class="fa-solid fa-book fa-lg (33% increase) icon"></i>
+            <!-- <i class="fas fa-user-friends icon"></i> -->
+            <span class="name">Notes and Books</span>
+          </a>
+
+          <a href="./#videos" class="link">
+            
+            <i class="fas fa-comments fa-lg (33% infacrease) icon"></i>
+            <!-- <i class="fas fa-layer-group icon"></i> -->
+            <span class="name">Chats</span>
+          </a>
+          <a href="./#videos" class="link">
+              <i class="fa-solid fa-cart-shopping fa-lg (33% increase) icon"></i>
+              <span class="name">Sell & Purchase</span>
+            </a>
+            <a href="./#videos" class="link">
+                <i class="fa-calendar fa-lg (33% increase) icon"></i>
+            <span class="name">Attendence</span>
+          </a>
+          <!-- <a href="./#videos" class="link">
+            <i class="fas fa-video icon"></i>
+            <span class="name">videos</span>
+          </a>
+          <a class="link">
+            <i class="fas fa-chevron-down icon"></i>
+            <span class="name">see more</span>
+          </a> -->
+        </nav>
+      </div>
+      <!-- /.row -->
+      <div class="row">
+        <h3 class="boxTitle">
+          Notices
+          <i class="fas fa-edit icon" title="Edit"></i>
+        </h3>
+        <nav class="navLinks">
+          <a href="./#" class="link">
+            <img src="mac.jpg" alt="shortcut-1" class="img" />
+            <span class="name">Holiday Notice</span>
+          </a>
+          <a href="./#" class="link">
+            <img src="mac.jpg" alt="shortcut-1" class="img" />
+            <span class="name">Placement Drive</span>
+          </a>
+          <a href="./#" class="link">
+            <img src="mac.jpg" alt="shortcut-1" class="img" />
+            <span class="name">EWS </span>
+          </a>
+          <a href="./#" class="link">
+            <img src="mac.jpg" alt="shortcut-1" class="img" />
+            <span class="name">github Profile </span>
+          </a>
+          <!-- <a href="./#" class="link">
+            <img src="mac.jpg" alt="shortcut-2" class="img" />
+            <span class="name">fontawesome icons</span>
+          </a> -->
+          <a class="link">
+            <i class="fas fa-chevron-down icon"></i>
+            <span class="name">see more</span>
+          </a>
+        </nav>
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.leftSidebar -->
+
+    <!-- Left Sidebar Section End -->
+
+    <!-- Right Sidebar Section -->
+    <section class="rightSidebar" id="rightSidebar">
+      <div class="row">
+        <h3 class="title">
+          Events
+          <a href="./#" class="link" title="See all"
+            ><i class="fas fa-eye icon"></i
+          ></a>
+        </h3>
+        <div class="boxContainer">
+          <article class="box">
+            <div class="date">
+              <h4 class="day">01</h4>
+              <h5 class="month">August</h5>
+            </div>
+            <div class="content">
+              <h3 class="title">javascript bootcamp</h3>
+              <p class="location">
+                <i class="fas fa-map-marker-alt icon"></i>
+                Google Club
+              </p>
+              <a href="./#read-more" class="readMore">read more</a>
+            </div>
+          </article>
+          <!-- /.box  -->
+          <article class="box">
+            <div class="date">
+              <h4 class="day">10</h4>
+              <h5 class="month">November</h5>
+            </div>
+            <div class="content">
+              <h3 class="title">PHP bootcamp</h3>
+              <p class="location">
+                <i class="fas fa-map-marker-alt icon"></i>
+                CodeChef
+              </p>
+              <a href="./#read-more" class="readMore">read more</a>
+            </div>
+          </article>
+          <!-- /.box  -->
+          <article class="box">
+            <div class="date">
+              <h4 class="day">22</h4>
+              <h5 class="month">December</h5>
+            </div>
+            <div class="content">
+              <h3 class="title">React bootcamp</h3>
+              <p class="location">
+                <i class="fas fa-map-marker-alt icon"></i>
+                DevTown (YouTube)
+              </p>
+              <a href="./#read-more" class="readMore">read more</a>
+            </div>
+          </article>
+          <!-- /.box  -->
+        </div>
+        <!-- /.boxContainer -->
+      </div>
+      <!-- /.row -->
+      <div class="row">
+        <h3 class="title">
+          Advertisement
+          <i class="fas fa-minus-circle icon" title="Hide"></i>
+        </h3>
+        <img src="mac.jpg" alt="advertisement" class="img" />
+      </div>
+      <!-- /.row -->
+      <!-- <div class="contact">
+        <h3 class="title">
+          contacts
+          <span class="icons">
+            <i class="fas fa-video icon" title="Video call"></i>
+            <i class="fas fa-search icon" title="Search"></i>
+            <i class="fas fa-ellipsis-h icon" title="Settings"></i>
+          </span>
+        </h3>
+        <div class="boxContainer">
+          <article class="box">
+            <img src="mac.jpg" alt="member-4" class="img" />
+            <h4 class="name">iftekhar rahman</h4>
+          </article>
+          <article class="box">
+            <img src="mac.jpg" alt="member-4" class="img" />
+            <h4 class="name">limon hasan</h4>
+          </article>
+          <article class="box">
+            <img src="mac.jpg" alt="member-4" class="img" />
+            <h4 class="name">imam hossain</h4>
+          </article>
+        </div>
+      </div> -->
+      <!-- /.contact -->
+    </section>
+    <!-- Right Sidebar Section End -->
+
+    <!-- Main Content Section -->
+    <section class="main" id="main">
+      <div class="container">
+        <!-- <div class="stories">
+          <article class="story">
+            <a href="./#stories" class="linkStory"
+              ><img src="profile1.jpg" alt="status-1" class="img"
+            /></a>
+            <a href="./#create-story" class="createStoryBtn">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="name">create story</a>
+          </article>
+
+          <article class="story">
+            <img src="mac.jpg" alt="status-2" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="profile2.jpg" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">kiron</a>
+          </article>
+
+          <article class="story">
+            <img src="mac.jpg" alt="status-3" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="profile3.jpg" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">rubel</a>
+          </article>
+
+          <article class="story">
+            <img src="mac.jpg" alt="status-4" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="profile4.jpg" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">hasan</a>
+          </article>
+        </div> -->
+        <!-- /.stories -->
+        <!-- <div class="post">
+          <div class="content">
+            <img
+              src="mac.jpg"
+              alt="profile-pic"
+              class="avatar"
+            />
+            <input
+              type="text"
+              class="textBox"
+              placeholder="what's on your mind, sakil?"
+            />
+          </div>
+         -->  <!-- /.content  -->
+          <!-- <div class="features">
+            <div class="feature">
+              <i class="fas fa-video icon" title="Live Video"></i>
+              <span class="name hidden">live video</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-photo-video icon" title="Photo/Video"></i>
+              <span class="name hidden">photo/ video</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-grin icon" title="Feeling/Activity"></i>
+              <span class="name hidden">feeling/activity</span>
+            </div> -->
+            <!-- /.feature -->
+          <!-- </div> -->
+          <!-- /.features -->
+        <!-- </div> --> 
+        <!-- /.post -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="mac.jpg"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name">
+                    Photographic Society
+                  <i class="fas fa-check-circle icon"></i>
+                </a>
+                <p class="time">10 july 2022, 04:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              
+              Submit your best clicked photos in the given link for College Magazine.
+              <a href="./#hashtag" class="link">    Sumbit Here </a>
+            <!--   <a href="/.#hashtag" class="link">    #College Life </a>
+              <a href="/.#hashtag" class="link">    #Photography</a> -->
+            </p>
+            <img src="post.jpg" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                sakil & 100 others
+              </article>
+
+              <div class="others">
+                <article class="box">50 comments</article>
+                <!-- <article class="box">30 share</article> -->
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <!-- <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div> -->
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="mac.jpg"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.after  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="mac.jpg"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name"> Debating Club </a>
+                <p class="time">05 july 2022, 08:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              A GD on the topic "Internet" will be held on upcoming Monday, Make sure you participate in the discussion process.  
+              <a href="./#hashtag" class="link">@College </a>
+              <a href="/.#hashtag" class="link">#Collegelife </a>
+              <a href="/.#hashtag" class="link">#Debate</a>
+              <a href="/.#hashtag" class="link">#Fun</a>
+            </p>
+            <img src="Debate.png" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                rubel & 2K others
+              </article>
+
+              <div class="others">
+                <article class="box">10 comments</article>
+                <!-- <article class="box">5 share</article> -->
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <!-- <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div> -->
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="mac.jpg"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.after  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="mac.jpg"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name">
+                  College Official
+                  <i class="fas fa-check-circle icon"></i>
+                </a>
+                <p class="time">10 july 2022, 04:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              The student who will have attendence less then 75% will not be able to sit in end term Examination.
+              <a href="./#hashtag" class="link"> Click here for Official Notice </a>
+              <!-- <a href="/.#hashtag" class="link"></a>
+              <a href="/.#hashtag" class="link"></a> -->
+            </p>
+            <img src="attendance.png" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                rasel & 1K others
+              </article>
+
+              <div class="others">
+                <article class="box">11 comments</article>
+               <!--  <article class="box">51 share</article> -->
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <!-- <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div> -->
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="mac.jpg"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.before  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="mac.jpg"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name"> Cricket Club</a>
+                <p class="time">05 july 2021, 08:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              The Cricket trails will be Next week.
+              <!-- <a href="./#hashtag" class="link">@Octapia </a>
+              <a href="/.#hashtag" class="link">#Octapia </a>
+              <a href="/.#hashtag" class="link">#WebDesign</a>
+              <a href="/.#hashtag" class="link">#NodeJS</a> -->
+            </p>
+            <img src="cricket.jpg" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                rony & 1.5K others
+              </article>
+
+              <div class="others">
+                <article class="box">10 5comments</article>
+                <!-- <article class="box">59 share</article> -->
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <!-- <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div> -->
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="mac.jpg"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.before  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="mac.jpg"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name"> Notes Provider </a>
+                <p class="time">05 june 2022, 08:30PM</p>
+              </div>
+            </div>
+            <!-- /.user -->
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <!-- /.header -->
+          <div class="content">
+            <p class="text">
+              Now you can Download printed as well as Handwitten Notes form the given link.->
+              <a href="./#hashtag" class="link">Official Website </a>
+<!--               <a href="/.#hashtag" class="link">#Octapia </a>
+              <a href="/.#hashtag" class="link">#WebDesign</a>
+              <a href="/.#hashtag" class="link">#FullStack</a> -->
+            </p>
+            <img src="notes.jpg" alt="news" class="img" />
+          </div>
+          <!-- /.content -->
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                rubel & 200 others
+              </article>
+
+              <div class="others">
+                <article class="box">60 comments</article>
+                <!-- <article class="box">55 share</article> -->
+              </div>
+            </div>
+            <!-- /.after -->
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <!-- /.box -->
+              <div class="box">
+                <img
+                  src="mac.jpg"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.before  -->
+          </div>
+          <!-- /.bottom -->
+        </div>
+        <!-- /.postPublished -->
+        <div class="loadMore">
+          <i class="fas fa-spinner icon" title="Loading More..."></i>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- Main Content Section End -->
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <!-- Scripts End -->
+  </body>
+</html>
